@@ -21,8 +21,8 @@ export default function Footer() {
 
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 py-8 sm:flex-row">
         <p className="flex items-center gap-1.5 text-sm text-paper/60">
-          © {new Date().getFullYear()} {profile.name} · Made with
-          <Heart className="h-3.5 w-3.5 fill-flame text-flame" /> in Dhaka
+          © {new Date().getFullYear()} {profile.name} · Made by
+          <Heart className="h-3.5 w-3.5 fill-flame text-flame" /> <a href="https://zunaid.bro.bd/">Zunaid </a>
         </p>
 
         <div className="flex items-center gap-3">
